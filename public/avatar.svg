@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#cfe3ff"/>
+      <stop offset="1" stop-color="#a9c8f5"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" fill="url(#bg)"/>
+  <!-- 어깨 -->
+  <path d="M28 256c0-52 44-86 100-86s100 34 100 86z" fill="#2f4a7a"/>
+  <!-- 목 -->
+  <rect x="108" y="140" width="40" height="40" rx="14" fill="#e9b894"/>
+  <!-- 얼굴 -->
+  <ellipse cx="128" cy="110" rx="46" ry="52" fill="#f3c7a4"/>
+  <!-- 머리카락 -->
+  <path d="M80 104c-2-40 22-62 50-62 30 0 50 22 46 62-8-16-20-26-36-30-14 8-34 14-60 30z" fill="#2b2622"/>
+  <!-- 눈 -->
+  <circle cx="110" cy="112" r="4.5" fill="#2b2622"/>
+  <circle cx="146" cy="112" r="4.5" fill="#2b2622"/>
+  <!-- 미소 -->
+  <path d="M112 134c8 8 24 8 32 0" fill="none" stroke="#a5604a" stroke-width="4" stroke-linecap="round"/>
+</svg>

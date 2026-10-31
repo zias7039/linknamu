@@ -18,9 +18,9 @@ export type LinkItem = {
 };
 
 export const profile = {
-  name: "홍길동",
-  bio: "한 줄 소개가 들어갈 자리입니다.",
-  avatar: "/avatar-placeholder.svg",
+  name: "김진영",
+  bio: "배우고 만든 것을 꾸준히 기록하는 사람입니다.",
+  avatar: "/avatar.svg",
 };
 
 export const socials: SocialLink[] = [
@@ -30,7 +30,7 @@ export const socials: SocialLink[] = [
 ];
 
 export const links: LinkItem[] = [
-  { id: "github", title: "GitHub", url: "https://github.com/example" },
-  { id: "linkedin", title: "LinkedIn", url: "https://www.linkedin.com/in/example" },
-  { id: "blog", title: "Blog", url: "https://example.com/blog" },
+  { id: "github", title: "🐙 깃허브", url: "https://github.com/zias7039" },
+  { id: "blog", title: "📝 블로그", url: "https://blog.naver.com/wlsdud7039" },
+  { id: "email", title: "✉️ 이메일", url: "mailto:wlsdud7039@naver.com" },
 ];
